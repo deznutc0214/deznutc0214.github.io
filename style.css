@@ -1,0 +1,25 @@
+:root {--main-color:blue;}
+
+nav a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+}
+body {
+    font-family:"Work Sans", sans-serif;
+}
+body.dark {
+    background: #111;
+    color: #fff;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+body.dark nav {
+    background: #111;
+}
